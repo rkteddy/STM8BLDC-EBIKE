@@ -15,10 +15,10 @@
   * CODING INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
   *
   * <h2><center>&copy; COPYRIGHT 2009 STMicroelectronics</center></h2>
-  * @image html logo.bmp
+  * @image html logo.bmp 
   ******************************************************************************
   */
-
+ 
 
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __STM8S_ADC1_H
