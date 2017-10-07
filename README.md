@@ -1,0 +1,2 @@
+# STM8BLDC-EBIKE
+基于STM8和BLDC驱动的无刷直流电机电动自行车控制器方案设计
