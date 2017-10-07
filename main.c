@@ -20,7 +20,7 @@
 #include "MC_stm8s_port_param.h"
 #include "mc_stm8s_hall_param.h"
 #include <debug.h>
-
+ 
 extern u16 hArrPwmVal;
 
 #define MINPWMPERCENT 10
