@@ -1,0 +1,83 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_adc1.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_adc1.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_awu.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_awu.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_clk.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_clk.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_exti.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_exti.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_flash.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_flash.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_gpio.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_gpio.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_i2c.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_i2c.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_itc.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_itc.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_iwdg.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_iwdg.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_rst.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_rst.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_spi.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_spi.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_tim1.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_tim1.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_tim5.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_tim5.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_tim6.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_tim6.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_uart1.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_uart1.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.FM_LIB.FM_LIB\C.fwlib1.1\1.1.1\src\stm8s_wwdg.c.Config.0]
+ExternDep= fwlib1.1\1.1.1\src\stm8s_wwdg.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h
+
+[Root.STM8_MC_FRAMEWORK.STM8_MC_FRAMEWORK\c.stm8_mc_framework\src\mc_hall.c.Config.0]
+ExternDep= stm8_mc_framework\src\mc_hall.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h  stm8_mc_framework\param\mc_stm8s_hall_param.h  stm8_mc_framework\param\mc_stm8s_clk_param.h  mc_fwlib_scalar\param\mc_bldc_drive_param.h stm8_mc_framework\inc\mc_vtimer.h  stm8_mc_framework\inc\dev_type.h src\h\debug.h
+
+[Root.STM8_MC_FRAMEWORK.STM8_MC_FRAMEWORK\c.stm8_mc_framework\src\mc_stm8s_clk.c.Config.0]
+ExternDep= stm8_mc_framework\src\mc_stm8s_clk.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h  stm8_mc_framework\inc\MC_dev_clk.h  stm8_mc_framework\param\MC_stm8s_clk_param.h
+
+[Root.STM8_MC_FRAMEWORK.STM8_MC_FRAMEWORK\c.stm8_mc_framework\src\mc_stm8s_port.c.Config.0]
+ExternDep= stm8_mc_framework\src\mc_stm8s_port.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h  stm8_mc_framework\inc\MC_dev_port.h  stm8_mc_framework\param\MC_stm8s_port_param.h  mc_fwlib_scalar\param\MC_PowerStage_Param.h
+
+[Root.STM8_MC_FRAMEWORK.STM8_MC_FRAMEWORK\c.stm8_mc_framework\src\mc_stm8s_vtimer.c.Config.0]
+ExternDep= stm8_mc_framework\src\mc_stm8s_vtimer.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h  stm8_mc_framework\inc\MC_vtimer.h stm8_mc_framework\inc\dev_type.h  stm8_mc_framework\param\MC_stm8s_clk_param.h
+
+[Root.STM8_MC_FRAMEWORK.STM8_MC_FRAMEWORK\c.stm8_mc_framework\src\mc_vtimer.c.Config.0]
+ExternDep= stm8_mc_framework\src\mc_vtimer.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h  stm8_mc_framework\inc\MC_vtimer.h stm8_mc_framework\inc\dev_type.h
+
+[Root.Source Files.main.c.Config.0]
+ExternDep= main.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h  fwlib1.1\1.1.1\inc\stm8s_lib.h fwlib1.1\1.1.1\inc\stm8s.h  fwlib1.1\1.1.1\inc\stm8s_type.h fwlib1.1\1.1.1\inc\stm8s_conf.h  fwlib1.1\1.1.1\inc\stm8s_adc1.h fwlib1.1\1.1.1\inc\stm8s_adc2.h  fwlib1.1\1.1.1\inc\stm8s_awu.h fwlib1.1\1.1.1\inc\stm8s_beep.h  fwlib1.1\1.1.1\inc\stm8s_clk.h fwlib1.1\1.1.1\inc\stm8s_flash.h  fwlib1.1\1.1.1\inc\stm8s_exti.h fwlib1.1\1.1.1\inc\stm8s_gpio.h  fwlib1.1\1.1.1\inc\stm8s_i2c.h fwlib1.1\1.1.1\inc\stm8s_itc.h  fwlib1.1\1.1.1\inc\stm8s_iwdg.h fwlib1.1\1.1.1\inc\stm8s_rst.h  fwlib1.1\1.1.1\inc\stm8s_spi.h fwlib1.1\1.1.1\inc\stm8s_tim1.h  fwlib1.1\1.1.1\inc\stm8s_tim2.h fwlib1.1\1.1.1\inc\stm8s_tim3.h  fwlib1.1\1.1.1\inc\stm8s_tim4.h fwlib1.1\1.1.1\inc\stm8s_tim5.h  fwlib1.1\1.1.1\inc\stm8s_tim6.h fwlib1.1\1.1.1\inc\stm8s_uart1.h  fwlib1.1\1.1.1\inc\stm8s_uart2.h fwlib1.1\1.1.1\inc\stm8s_uart3.h  fwlib1.1\1.1.1\inc\stm8s_wwdg.h src\h\functions.h  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\stdio.h  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\string.h  stm8_mc_framework\inc\mc_dev_clk.h stm8_mc_framework\inc\mc_vtimer.h  stm8_mc_framework\inc\dev_type.h stm8_mc_framework\inc\mc_dev_vtimer.h  stm8_mc_framework\inc\MC_HALL.H stm8_mc_framework\param\mc_stm8s_hall_param.h  stm8_mc_framework\inc\MC_dev_port.h  stm8_mc_framework\param\MC_stm8s_port_param.h src\h\debug.h
+
+[Root.Source Files.src\c\debug.c.Config.0]
+ExternDep= src\c\debug.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h  fwlib1.1\1.1.1\inc\stm8s_lib.h fwlib1.1\1.1.1\inc\stm8s.h  fwlib1.1\1.1.1\inc\stm8s_type.h fwlib1.1\1.1.1\inc\stm8s_conf.h  fwlib1.1\1.1.1\inc\stm8s_adc1.h fwlib1.1\1.1.1\inc\stm8s_adc2.h  fwlib1.1\1.1.1\inc\stm8s_awu.h fwlib1.1\1.1.1\inc\stm8s_beep.h  fwlib1.1\1.1.1\inc\stm8s_clk.h fwlib1.1\1.1.1\inc\stm8s_flash.h  fwlib1.1\1.1.1\inc\stm8s_exti.h fwlib1.1\1.1.1\inc\stm8s_gpio.h  fwlib1.1\1.1.1\inc\stm8s_i2c.h fwlib1.1\1.1.1\inc\stm8s_itc.h  fwlib1.1\1.1.1\inc\stm8s_iwdg.h fwlib1.1\1.1.1\inc\stm8s_rst.h  fwlib1.1\1.1.1\inc\stm8s_spi.h fwlib1.1\1.1.1\inc\stm8s_tim1.h  fwlib1.1\1.1.1\inc\stm8s_tim2.h fwlib1.1\1.1.1\inc\stm8s_tim3.h  fwlib1.1\1.1.1\inc\stm8s_tim4.h fwlib1.1\1.1.1\inc\stm8s_tim5.h  fwlib1.1\1.1.1\inc\stm8s_tim6.h fwlib1.1\1.1.1\inc\stm8s_uart1.h  fwlib1.1\1.1.1\inc\stm8s_uart2.h fwlib1.1\1.1.1\inc\stm8s_uart3.h  fwlib1.1\1.1.1\inc\stm8s_wwdg.h src\h\debug.h
+
+[Root.Source Files.src\c\functions.c.Config.0]
+ExternDep= src\c\functions.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h  fwlib1.1\1.1.1\inc\stm8s_lib.h fwlib1.1\1.1.1\inc\stm8s.h  fwlib1.1\1.1.1\inc\stm8s_type.h fwlib1.1\1.1.1\inc\stm8s_conf.h  fwlib1.1\1.1.1\inc\stm8s_adc1.h fwlib1.1\1.1.1\inc\stm8s_adc2.h  fwlib1.1\1.1.1\inc\stm8s_awu.h fwlib1.1\1.1.1\inc\stm8s_beep.h  fwlib1.1\1.1.1\inc\stm8s_clk.h fwlib1.1\1.1.1\inc\stm8s_flash.h  fwlib1.1\1.1.1\inc\stm8s_exti.h fwlib1.1\1.1.1\inc\stm8s_gpio.h  fwlib1.1\1.1.1\inc\stm8s_i2c.h fwlib1.1\1.1.1\inc\stm8s_itc.h  fwlib1.1\1.1.1\inc\stm8s_iwdg.h fwlib1.1\1.1.1\inc\stm8s_rst.h  fwlib1.1\1.1.1\inc\stm8s_spi.h fwlib1.1\1.1.1\inc\stm8s_tim1.h  fwlib1.1\1.1.1\inc\stm8s_tim2.h fwlib1.1\1.1.1\inc\stm8s_tim3.h  fwlib1.1\1.1.1\inc\stm8s_tim4.h fwlib1.1\1.1.1\inc\stm8s_tim5.h  fwlib1.1\1.1.1\inc\stm8s_tim6.h fwlib1.1\1.1.1\inc\stm8s_uart1.h  fwlib1.1\1.1.1\inc\stm8s_uart2.h fwlib1.1\1.1.1\inc\stm8s_uart3.h  fwlib1.1\1.1.1\inc\stm8s_wwdg.h src\h\functions.h  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\stdio.h  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\string.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h stm8s_it.h  fwlib1.1\1.1.1\inc\stm8s.h fwlib1.1\1.1.1\inc\stm8s_type.h  fwlib1.1\1.1.1\inc\stm8s_conf.h
+
+[Root.Source Files.stm8s_it.c.Config.0]
+ExternDep= stm8s_it.c  E:\electric&mcu_development\stm8程序\CXSTM8\Hstm8\mods0.h stm8s_it.h  fwlib1.1\1.1.1\inc\stm8s.h fwlib1.1\1.1.1\inc\stm8s_type.h  fwlib1.1\1.1.1\inc\stm8s_conf.h
