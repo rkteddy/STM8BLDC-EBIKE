@@ -112,14 +112,6 @@ main()
 		//FlagStatus EOC_Flag;
 		for(i=0;i<60000;i++);
 		OUTPWM=MINVALUE;		
-    dev_clkInit();
-		DebugInit();
-		//SendString("booting,please wait.....");
-		InitLed_GPIO();  //LED灯初始化
-		dev_portInit();//PWMio初始化
-		dev_vtimerInit(); //TIM5软件定时器配置 
-		ADC_Init();
-		vtimer_SetTimer(VTIM0,1,fun);	
 
      GPIO_WriteHigh(GPIOD,GPIO_PIN_6);
 		
