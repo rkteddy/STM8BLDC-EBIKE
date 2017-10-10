@@ -121,16 +121,16 @@ main()
 		ADC_Init();
 		vtimer_SetTimer(VTIM0,1,fun);	
 
-     GPIO_WriteHigh(GPIOD,GPIO_PIN_6);
+		GPIO_WriteHigh(GPIOD,GPIO_PIN_6);
 		
-		#ifdef HALLTEST_TIMER
+	#ifdef HALLTEST_TIMER
 		Init_HallBaseTimer();//HALL 时钟相关配置	
 		Init_TIM1();
 		HallTimer_InitCapturePolarity();//HALL 捕获配置
-		#else
-    EXTI_HALL_Init();
+	#else
+		EXTI_HALL_Init();
 		Init_TIM1();
-    HallEXTI_Init();
+		HallEXTI_Init();
     #endif		
 	  while (1)
 		{
