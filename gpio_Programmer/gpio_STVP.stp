@@ -1,0 +1,20 @@
+[Last Settings]
+Hardware=ST-LINK
+PROTOCOL=SWIM
+Port=USB
+DEVICE=STM8S903K3
+Verify after programming=1
+Blank check before programming (when available)=1
+Erase device memory before programming (when available)=0
+Unlock protection before a programming cycle=0
+[DATA MEMORY]
+Count=0
+ProgramEvenIfBlank=0
+[PROGRAM MEMORY]
+Count=1
+File0=E:\electric&mcu_development\STM8\stm8 bldc 开发板\新42电机资料及程序 OK\新42电机资料及程序\新42电机 程序130327\2 有感可调速\Debug\gpio.s19
+ProgramEvenIfBlank=0
+[OPTION BYTE]
+Count=1
+File0=E:\electric&mcu_development\STM8\stm8 bldc 开发板\新42电机资料及程序 OK\新42电机资料及程序\新42电机 程序130327\2 有感可调速\gpio_Programmer\gpio_STVP_OPTION BYTE.hex
+ProgramEvenIfBlank=0
