@@ -87,7 +87,16 @@ void fun(void)
 	//SendUInt((unsigned int) curave);
 }
 
-
+void ADC_Init(void)
+{
+		
+		GPIO_Init(GPIOB,GPIO_PIN_1,GPIO_MODE_IN_FL_NO_IT); //current average,AIN1
+		GPIO_Init(GPIOB,GPIO_PIN_3,GPIO_MODE_IN_FL_NO_IT); //speed_set,AIN3
+		ADC1_DeInit();
+		ADC1_SchmittTriggerConfig(ADC1_SCHMITTTRIG_CHANNEL1, DISABLE);
+		ADC1_SchmittTriggerConfig(ADC1_SCHMITTTRIG_CHANNEL3, DISABLE);
+    ADC1_ITConfig(ADC1_IT_EOCIE, DISABLE);
+}
 
 void delay(unsigned int i)
 {
@@ -114,16 +123,16 @@ main()
 
 		GPIO_WriteHigh(GPIOD,GPIO_PIN_6);
 		
-	#ifdef HALLTEST_TIMER
+		#ifdef HALLTEST_TIMER
 		Init_HallBaseTimer();//HALL 时钟相关配置	
 		Init_TIM1();
 		HallTimer_InitCapturePolarity();//HALL 捕获配置
-	#else
+		#else
 		EXTI_HALL_Init();
 		Init_TIM1();
 		HallEXTI_Init();
     #endif		
-	  while (1)
+	while (1)
 		{
 			CheckBreak();
 		
