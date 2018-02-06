@@ -83,7 +83,7 @@ struct interrupt_vector const _vectab[] = {
 
 #endif /* STM8S208, STM8S207 */
 
-#ifdef STM8S903 
+#ifdef STM8S903
 	{0x82, (interrupt_handler_t)TIM6_UPD_OVF_TRG_IRQHandler}, /* irq23 - TIM6 Update/Overflow/Trigger interrupt */
 #else
 	{0x82, (interrupt_handler_t)TIM4_UPD_OVF_IRQHandler}, /* irq23 - TIM4 Update/Overflow interrupt */
